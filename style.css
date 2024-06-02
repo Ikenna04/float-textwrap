@@ -1,0 +1,42 @@
+body {
+	font-size: 1.5rem;
+}
+
+.block {
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.left {
+	float: left;
+	margin-right: 1rem;
+}
+
+.right {
+	float: right;
+	margin-right: 1rem;
+}
+
+.clear {
+	clear: both;
+}
+
+section {
+	background-color: bisque;
+	border: 1px solid #333;
+	padding: 1rem;
+	display: flow-root;
+}
+
+aside {
+	background-color: bisque;
+	border: 1px solid #333;
+	padding: 1rem;
+	overflow: auto; 
+}
